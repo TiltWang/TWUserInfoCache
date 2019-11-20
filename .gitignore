@@ -36,4 +36,4 @@ Carthage/Build
 #
 Pods/
 Example/Podfile.lock
-Example/TWUserInfoCache.xcworkspace
+#Example/TWUserInfoCache.xcworkspace

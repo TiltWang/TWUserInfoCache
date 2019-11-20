@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/tiltwang/TWUserInfoCache.svg?style=flat)](https://travis-ci.org/tiltwang/TWUserInfoCache)
 [![Version](https://img.shields.io/cocoapods/v/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
-[![License](https://img.shields.io/cocoapods/l/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
+[![License](https://img.shields.io/cocoapods/l/TWUserInfoCache.svg?style=flat)](https://github.com/TiltWang/TWUserInfoCache/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
 
 ## Example

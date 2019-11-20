@@ -1,6 +1,6 @@
 # TWUserInfoCache
 
-[![CI Status](https://img.shields.io/travis/wangxufeng092@163.com/TWUserInfoCache.svg?style=flat)](https://travis-ci.org/wangxufeng092@163.com/TWUserInfoCache)
+[![CI Status](https://img.shields.io/travis/tiltwang/TWUserInfoCache.svg?style=flat)](https://travis-ci.org/tiltwang/TWUserInfoCache)
 [![Version](https://img.shields.io/cocoapods/v/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
 [![License](https://img.shields.io/cocoapods/l/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
 [![Platform](https://img.shields.io/cocoapods/p/TWUserInfoCache.svg?style=flat)](https://cocoapods.org/pods/TWUserInfoCache)
@@ -22,7 +22,7 @@ pod 'TWUserInfoCache'
 
 ## Author
 
-wangxufeng092@163.com, wangxufeng65180@offcn.com
+tiltwang
 
 ## License
 

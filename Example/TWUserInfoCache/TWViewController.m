@@ -11,7 +11,7 @@
 #import "TWUserInfoCacheModel.h"
 #import "TWUserInfo.h"
 #import "TWUserInfoCacheManager.h"
-#import "FLEX/FLEX.h"
+//#import "FLEX/FLEX.h"
 
 @interface TWViewController ()
 
@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
     
-    [[FLEXManager sharedManager] toggleExplorer];
+//    [[FLEXManager sharedManager] toggleExplorer];
 }
 
 - (void)didReceiveMemoryWarning

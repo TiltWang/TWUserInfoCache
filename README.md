@@ -20,6 +20,55 @@ it, simply add the following line to your Podfile:
 pod 'TWUserInfoCache'
 ```
 
+## Usage
+
+```
+@interface TWUserInfo : NSObject <NSCoding>
+
+@property (nonatomic, strong) NSString *name;
+
+@property (nonatomic, strong) NSString *phone;
+
+@end
+
+
+#import "TWUserInfo.h"
+
+@implementation TWUserInfo
+
+- (void)encodeWithCoder:(NSCoder *)coder {
+    [coder encodeObject:self.name forKey:@"name"];
+    [coder encodeObject:self.phone forKey:@"phone"];
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder {
+    self = [super init];
+    if (self) {
+        
+        self.name = [coder decodeObjectForKey:@"name"];
+        self.phone = [coder decodeObjectForKey:@"phone"];
+        
+    }
+    return self;
+}
+
+@end
+
+```
+
+```
+TWUserInfo *userInfo = [[TWUserInfo alloc] init];
+userInfo.name = @"lisi";
+userInfo.phone = @"15715147521";
+TWUserInfoCacheModel<TWUserInfo *> *model = [[TWUserInfoCacheModel alloc] init];
+model.userInfo = userInfo;
+
+[TWUserInfoCacheManager storeUserInfoCacheWithModel:model cacheKey:@"172381"];
+
+TWUserInfoCacheModel<TWUserInfo *> *user = [TWUserInfoCacheManager getUserInfoModelWithCacheKey:model.cacheKey];
+
+```
+
 ## Author
 
 tiltwang

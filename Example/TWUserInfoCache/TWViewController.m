@@ -37,7 +37,7 @@
 //    NSLog(@"\ndoc:%@\ncah:%@\ntmp:%@", [TWUserInfoCacheCommon getAppLocalDocumentPath], [TWUserInfoCacheCommon getAppLocalCachesPath], [TWUserInfoCacheCommon getAppLocalTmpPath]);
     TWUserInfo *userInfo = [[TWUserInfo alloc] init];
     userInfo.name = @"lisi";
-    userInfo.phone = @"15715147521";
+    userInfo.phone = @"12723772";
     TWUserInfoCacheModel<TWUserInfo *> *model = [[TWUserInfoCacheModel alloc] init];
 //    model.cacheKey = @"172381";
     model.userInfo = userInfo;

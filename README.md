@@ -59,7 +59,7 @@ pod 'TWUserInfoCache'
 ```
 TWUserInfo *userInfo = [[TWUserInfo alloc] init];
 userInfo.name = @"lisi";
-userInfo.phone = @"15715147521";
+userInfo.phone = @"1231283";
 TWUserInfoCacheModel<TWUserInfo *> *model = [[TWUserInfoCacheModel alloc] init];
 model.userInfo = userInfo;
 

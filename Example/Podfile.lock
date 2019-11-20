@@ -1,0 +1,23 @@
+PODS:
+  - FLEX (3.0.0)
+  - TWUserInfoCache (0.1.0)
+
+DEPENDENCIES:
+  - FLEX
+  - TWUserInfoCache (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FLEX
+
+EXTERNAL SOURCES:
+  TWUserInfoCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLEX: d66c759bce0f6ebbbf472c742380874d846f2883
+  TWUserInfoCache: 38f3afdc503b35da288da5b4157faafa1b527581
+
+PODFILE CHECKSUM: b0459a8879158fd039279f0de6f5a9b9e9d5f54c
+
+COCOAPODS: 1.8.4

@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'TWUserInfoCache_Example' do
-#  pod 'TWUserInfoCache', :path => '../'
+  pod 'TWUserInfoCache', :path => '../'
 #  pod 'FLEX'
 
   target 'TWUserInfoCache_Tests' do

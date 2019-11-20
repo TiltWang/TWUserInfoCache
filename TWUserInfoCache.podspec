@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = 'TWUserInfoCache is a cache user information tool. Small and easy to use.'
 
-  s.homepage         = 'https://github.com/TiltWang/TWUserInfoCache'
+  s.homepage         = 'https://github.com/wangxufeng092@163.com/TWUserInfoCache'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tiltwang' => 'wangxufeng092@163.com' }
+  s.author           = { 'tiltwang' => 'wangxufeng092@163.com'' }
   s.source           = { :git => 'https://github.com/TiltWang/TWUserInfoCache.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *phone;
 
+@property (nonatomic, strong) NSString *age;
+
 @end
 
 NS_ASSUME_NONNULL_END

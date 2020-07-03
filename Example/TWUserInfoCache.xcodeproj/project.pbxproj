@@ -24,9 +24,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		90FC543AE420329AF5E14630 /* Pods_TWUserInfoCache_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0BBA8307C50193A69D9F6A /* Pods_TWUserInfoCache_Tests.framework */; };
 		9500DED3DD01DB39F84D1B7D /* Pods_TWUserInfoCache_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F32293039DC70B127E6F58 /* Pods_TWUserInfoCache_Example.framework */; };
-		A57CD3462384DF6700BB43DA /* TWUserInfoCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A57CD3452384DF6700BB43DA /* TWUserInfoCacheManager.m */; };
-		A57CD3492384DFA000BB43DA /* TWUserInfoCacheCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = A57CD3482384DFA000BB43DA /* TWUserInfoCacheCommon.m */; };
-		A57CD34C2384DFB100BB43DA /* TWUserInfoCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A57CD34B2384DFB100BB43DA /* TWUserInfoCacheModel.m */; };
 		A57CD34F2384E44B00BB43DA /* TWUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A57CD34E2384E44A00BB43DA /* TWUserInfo.m */; };
 /* End PBXBuildFile section */
 
@@ -69,12 +66,6 @@
 		764A1862B52DD4CE5B9CC4BA /* Pods-TWUserInfoCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWUserInfoCache_Example.release.xcconfig"; path = "Target Support Files/Pods-TWUserInfoCache_Example/Pods-TWUserInfoCache_Example.release.xcconfig"; sourceTree = "<group>"; };
 		802EBD8B65A21A175FF29D84 /* Pods-TWUserInfoCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWUserInfoCache_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWUserInfoCache_Tests/Pods-TWUserInfoCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A57CD3442384DF6700BB43DA /* TWUserInfoCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUserInfoCacheManager.h; sourceTree = "<group>"; };
-		A57CD3452384DF6700BB43DA /* TWUserInfoCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWUserInfoCacheManager.m; sourceTree = "<group>"; };
-		A57CD3472384DFA000BB43DA /* TWUserInfoCacheCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUserInfoCacheCommon.h; sourceTree = "<group>"; };
-		A57CD3482384DFA000BB43DA /* TWUserInfoCacheCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWUserInfoCacheCommon.m; sourceTree = "<group>"; };
-		A57CD34A2384DFB100BB43DA /* TWUserInfoCacheModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUserInfoCacheModel.h; sourceTree = "<group>"; };
-		A57CD34B2384DFB100BB43DA /* TWUserInfoCacheModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWUserInfoCacheModel.m; sourceTree = "<group>"; };
 		A57CD34D2384E44A00BB43DA /* TWUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUserInfo.h; sourceTree = "<group>"; };
 		A57CD34E2384E44A00BB43DA /* TWUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWUserInfo.m; sourceTree = "<group>"; };
 		C5F32293039DC70B127E6F58 /* Pods_TWUserInfoCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWUserInfoCache_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +135,6 @@
 		6003F593195388D20070C39A /* Example for TWUserInfoCache */ = {
 			isa = PBXGroup;
 			children = (
-				A57CD3412384DF4A00BB43DA /* Classes */,
 				6003F59C195388D20070C39A /* TWAppDelegate.h */,
 				6003F59D195388D20070C39A /* TWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -198,35 +188,6 @@
 				1A8383221A5967743CFBEE52 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		A57CD3412384DF4A00BB43DA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A57CD3422384DF4A00BB43DA /* Common */,
-				A57CD3432384DF4A00BB43DA /* Model */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A57CD3422384DF4A00BB43DA /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				A57CD3442384DF6700BB43DA /* TWUserInfoCacheManager.h */,
-				A57CD3452384DF6700BB43DA /* TWUserInfoCacheManager.m */,
-				A57CD3472384DFA000BB43DA /* TWUserInfoCacheCommon.h */,
-				A57CD3482384DFA000BB43DA /* TWUserInfoCacheCommon.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		A57CD3432384DF4A00BB43DA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A57CD34A2384DFB100BB43DA /* TWUserInfoCacheModel.h */,
-				A57CD34B2384DFB100BB43DA /* TWUserInfoCacheModel.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D6B25644493CE7A78FC70698 /* Pods */ = {
@@ -408,9 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57CD34C2384DFB100BB43DA /* TWUserInfoCacheModel.m in Sources */,
-				A57CD3492384DFA000BB43DA /* TWUserInfoCacheCommon.m in Sources */,
-				A57CD3462384DF6700BB43DA /* TWUserInfoCacheManager.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				A57CD34F2384E44B00BB43DA /* TWUserInfo.m in Sources */,

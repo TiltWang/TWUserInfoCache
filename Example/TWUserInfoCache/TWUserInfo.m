@@ -13,6 +13,7 @@
 - (void)encodeWithCoder:(NSCoder *)coder {
     [coder encodeObject:self.name forKey:@"name"];
     [coder encodeObject:self.phone forKey:@"phone"];
+    [coder encodeObject:self.age forKey:@"age"];
 }
 
 - (instancetype)initWithCoder:(NSCoder *)coder {
@@ -21,7 +22,7 @@
         
         self.name = [coder decodeObjectForKey:@"name"];
         self.phone = [coder decodeObjectForKey:@"phone"];
-        
+        self.age = [coder decodeObjectForKey:@"age"];
     }
     return self;
 }

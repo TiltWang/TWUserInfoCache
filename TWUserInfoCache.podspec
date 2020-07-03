@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWUserInfoCache'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'TWUserInfoCache is a cache user information tool.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Example/TWUserInfoCache/Classes/**/*.{h,m}'
+  s.source_files = 'TWUserInfoCache/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'TWUserInfoCache' => ['TWUserInfoCache/Assets/*.png']

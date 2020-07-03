@@ -35,16 +35,17 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    NSLog(@"\ndoc:%@\ncah:%@\ntmp:%@", [TWUserInfoCacheCommon getAppLocalDocumentPath], [TWUserInfoCacheCommon getAppLocalCachesPath], [TWUserInfoCacheCommon getAppLocalTmpPath]);
-    TWUserInfo *userInfo = [[TWUserInfo alloc] init];
-    userInfo.name = @"lisi";
-    userInfo.phone = @"12723772";
-    TWUserInfoCacheModel<TWUserInfo *> *model = [[TWUserInfoCacheModel alloc] init];
-//    model.cacheKey = @"172381";
-    model.userInfo = userInfo;
+//    TWUserInfo *userInfo = [[TWUserInfo alloc] init];
+//    userInfo.name = @"lisi";
+//    userInfo.phone = @"12723772";
+//    TWUserInfoCacheModel<TWUserInfo *> *model = [[TWUserInfoCacheModel alloc] init];
+////    model.cacheKey = @"172381";
+//    model.userInfo = userInfo;
+////
+//    [TWUserInfoCacheManager storeUserInfoCacheWithModel:model cacheKey:@"172381"];
     
-    [TWUserInfoCacheManager storeUserInfoCacheWithModel:model cacheKey:@"172381"];
-    
-    TWUserInfoCacheModel<TWUserInfo *> *user = [TWUserInfoCacheManager getUserInfoModelWithCacheKey:model.cacheKey];
+    TWUserInfoCacheModel<TWUserInfo *> *user = [TWUserInfoCacheManager getUserInfoModelWithCacheKey:@"172381"];
+//    TWUserInfoCacheModel<TWUserInfo *> *user = [TWUserInfoCacheManager getUserInfoModelWithCacheKey:nil];
     NSLog(@"%@", user.userInfo.name);
 }
 
